@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/common.css" /><!-- 헤더, 푸터 스타일시트 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous"><!-- 폰트 어썸 -->
+    <link rel="stylesheet" href="lib/slick/slick.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+San|Nanum+Myeongjo" rel="stylesheet"><!-- 구글 웹폰트 불러오기 -->
+    <script type="text/javascript" src="lib/jquery-3.3.1.min.js"></script> <!-- jquery 라이브러리  -->
+    <script type="text/javascript" src="lib/slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script><!-- 헤더, 푸터 자바스크립트 파일 -->
+    <style>
+
+    .top-banner .slick-slide{
+         /* 아이템간의 간격 설정*/
+        /* margin:0 10px; */
+        outline:none;
+    }
+
+    .top-banner{
+        position:relative;
+
+        overflow:hidden;
+    }
+
+    .top-banner .slick-prev,.slick-next{
+        position:absolute;
+        top:50%;
+        transform:translate(0,-50%);
+        z-index:1;
+        outline:none;
+        border:none;
+        background:none;
+        color:white;
+        font-size:0; /* 폰트 사이즈를 0으로 해서 prev, next텍스트를 안보이게 만들어준다 */
+        
+    }
+
+    /* 위치설정 */
+    .top-banner .slick-prev{
+        left:10px;
+    }
+    
+    .top-banner .slick-next{
+        right:10px;
+    }
+    
+    /* 실제로 보여지는 버튼 형태*/
+    .top-banner .slick-prev:after, .slick-next:after{
+        font-size:1.5rem;
+        border:1px solid white;
+        border-radius:50%;
+        display:block;
+        width:50px;
+        height:50px;
+        line-height:50px;
+        cursor:pointer;
+        background-color:rgba(0,0,0,0.1);
+        color:white;
+    }
+
+    /* 호버시 변경*/
+    .top-banner .slick-prev:hover:after, .slick-next:hover:after{
+        background-color:rgba(255,255,255,0.4);
+    }
+    
+    /* 버튼의 텍스트 */
+    .top-banner .slick-prev:after{
+        content:'<';
+
+    }
+    
+    .top-banner .slick-next:after{
+
+        content:'>';
+    }
+    
+    /* 아래의 점들 을 담고있는 컨테이너*/
+    .top-banner .slick-dots{
+        position:absolute;
+        bottom:10px;
+        left:50%;
+        transform:translate(-50%,0);
+        font-size:0;
+    }
+
+
+    .top-banner .slick-dots li{
+        list-style:none;
+        display:inline-block;
+        margin:0 3px; /* 점들간의 간격*/
+    }
+
+    .top-banner .slick-dots li button{
+        outline:none;
+        font-size:0; /*0으로 바꿔서 도트 숫자 안보이게*/
+        border:none;
+        background:none;
+        display:inline-block;
+        cursor:pointer;
+    }
+
+    /* 점들 디자인 */
+    .top-banner .slick-dots li button:after{
+        content:'';
+        display:block;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        background-color:grey;
+    }
+
+    .top-banner .slick-dots .slick-active button:after{
+        background-color:var(--base-color); /* 현재 페이지 점의 디자인 */
+    }
+
+    .top-banner__item{
+        
+    }
+    @media all and (max-width:763px){
+        .top-banner .slick-prev:after, .top-banner .slick-next:after{
+            display:none;
+        }
+    }
+    </style>
+
+    <script type="text/javascript">
+        $(function () {
+            $('.top-banner').slick({
+                dots: true, // 네비게이션(아래의 점들) 보여주기
+                infinite: true, //루프되게
+                slidesToShow: 1, //한번에 보여주는 아이템의 개수
+                // slidesToScroll: 1, // 몇개단위로 페이지가 넘어가는지 설정
+                autoplay: true, //자동으로 넘어가게
+                autoplaySpeed: 3000, //넘어가는 속도 설정
+                // centerMode:false, //센터모드 - 좌우의 안보이는 아이템을 일부 보이게 해줌
+                // centerPadding: '40px' //센터모드시 좌우의 아이템을 얼마나 보이게 해줄지 설정
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo-area clearfix header__wrap">
+            <a href="#"><img class="logo" src="img/logo_4.png" alt="로고"></a>
+            <div class="header__phone">
+                <i class="fas fa-phone-square"></i><span>상담 041-577-8888</span>
+            </div>
+            <h1 class="header__text">
+                <strong>아이</strong>와 <strong>어머니</strong>를 생각하는<i class="far fa-heart" style="vertical-align: top;"><i
+                        class="far fa-heart" style="font-size:0.8rem;vertical-align:top;"></i></i><br>
+                <span><strong>미즈나래</strong>여성병원</span>
+            </h1>
+
+            <div class="sns header__sns">
+                <a class="sns__blog" href="#">블로그</a>
+                <a class="sns__facebook" href="#">페이스북</a>
+                <a class="sns__instagram" href="#">인스타그램</a>
+            </div>
+
+            <label class="hamburger header__hamburger">
+                <input class="hamburger__checkbox" type="checkbox">
+                <div class="hamburger__top-line"></div>
+                <div class="hamburger__middle-line"></div>
+                <div class="hamburger__bottom-line"></div>
+            </label>
+        </div>
+        <div class="header__nav-area">
+            <nav class="gnb">
+                <ul class="clearfix">
+                    <li><a class="gnb__item" href="#" data-target="1"><span>미즈나래 소개</span></a></li>
+                    <li><a class="gnb__item" href="#" data-target="2"><span>진료안내</span></a></li>
+                    <li><a class="gnb__item" href="#" data-target="3"><span>난임센터</span></a></li>
+                    <li><a class="gnb__item" href="#" data-target="4"><span>상담/예약</span></a></li>
+                    <li><a class="gnb__item" href="#" data-target="5"><span>증명서발급</span></a></li>
+                    <li><a class="gnb__item" href="#" data-target="6"><span>고객서비스</span></a></li>
+                </ul>
+            </nav>
+            <nav class="sub">
+                <ul class="header__wrap">
+                    <li class="sub__item">
+                        <h2 class="sub__title">미즈나래 소개</h2>
+                        <ul class="sub__list">
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">병원 둘러보기</a></li>
+                            <li><a href="#">의료진 안내</a></li>
+                            <li><a href="#">찾아오시는 길</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub__item">
+                        <h2 class="sub__title">진료안내</h2>
+                        <ul class="sub__list">
+                            <li><a href="#">산부인과</a></li>
+                            <li><a href="#">감성분만</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="sub__item">
+                        <h2 class="sub__title">난임센터</h2>
+                        <ul class="sub__list">
+                            <li><a href="#">난임이란 </a></li>
+                            <li><a href="#">임신성공사례</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub__item">
+                        <h2 class="sub__title">상담/예약</h2>
+                        <ul class="sub__list">
+                            <li><a href="#">온라인 상담</a></li>
+                            <li><a href="#">온라인 예약</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub__item">
+                        <h2 class="sub__title">증명서 발급</h2>
+                        <ul class="sub__list">
+                            <li><a href="#">증명서 발급</a></li>
+                            <li><a href="#">비급여항목 안내</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub__item">
+                        <h2 class="sub__title">고객 서비스</h2>
+                        <ul class="sub__list">
+                            <li><a href="#">병원소식</a></li>
+                            <li><a href="#">보도자료</a></li>
+                            <li><a href="#">QnA</a></li>
+                            <li><a href="#">병원이용후기</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="mobile-nav">
+                <div class="mobile-nav__container">
+                    <ul class="mobile-nav__1depth">
+                        <li class="mobile-nav__1depth-item">
+                            <a href="#"><span class="mobile-nav__1depth-title">미즈나래 소개</span><span class="mobile-nav__arrow"></span></a>
+                            <ul class="mobile-nav__2depth">
+                                <li><a href="#">인사말</a></li>
+                                <li><a href="#">병원 둘러보기</a></li>
+                                <li><a href="#">의료진 안내</a></li>
+                                <li><a href="#">찾아오시는 길</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="mobile-nav__1depth">
+                        <li class="mobile-nav__1depth-item">
+                            <a href="#"><span class="mobile-nav__1depth-title">진료안내</span><span class="mobile-nav__arrow"></span></a>
+                            <ul class="mobile-nav__2depth">
+                                <li><a href="#">산부인과</a></li>
+                                <li><a href="#">감성분만</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="mobile-nav__1depth">
+                        <li class="mobile-nav__1depth-item">
+                            <a href="#"><span class="mobile-nav__1depth-title">난임센터</span><span class="mobile-nav__arrow"></span></a>
+                            <ul class="mobile-nav__2depth">
+                                <li><a href="#">난임이란 </a></li>
+                                <li><a href="#">임신성공 사례</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="mobile-nav__1depth">
+                        <li class="mobile-nav__1depth-item">
+                            <a href="#"><span class="mobile-nav__1depth-title">상담/예약</span><span class="mobile-nav__arrow"></span></a>
+                            <ul class="mobile-nav__2depth">
+                                <li><a href="#">온라인 상담</a></li>
+                                <li><a href="#">온라인 예약</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="mobile-nav__1depth">
+                        <li class="mobile-nav__1depth-item">
+                            <a href="#"><span class="mobile-nav__1depth-title">증명서 발급</span><span class="mobile-nav__arrow"></span></a>
+                            <ul class="mobile-nav__2depth">
+                                <li><a href="#">증명서 발급</a></li>
+                                <li><a href="#">비급여항목 안내</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="mobile-nav__1depth">
+                        <li class="mobile-nav__1depth-item">
+                            <a href="#"><span class="mobile-nav__1depth-title">고객 서비스</span><span class="mobile-nav__arrow"></span></a>
+                            <ul class="mobile-nav__2depth">
+                                <li><a href="#">병원 소식</a></li>
+                                <li><a href="#">보도자료</a></li>
+                                <li><a href="#">QnA</a></li>
+                                <li><a href="#">병원이용 후기</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="mobile-nav__contact">
+                        <h3 class="mobile-nav__contact-title">상담</h3>
+                        <div class="mobile-nav__contact-text">
+                            <i class="fas fa-phone-square"></i><span>041-577-8888</span>
+                        </div>
+                    </div>
+
+                    <div class="mobile-nav__time">
+                        <div class="mobile-nav__time-container">
+                            <h4 class="mobile-nav__time-title">진료시간 안내</h4>
+                            <div class="mobile-nav__time-line">평일: 오전 9:00 ~ 오후 6:00</div>
+                            <div class="mobile-nav__time-line">토요일: 오전 9:00 ~ 오후 1:00</div>
+                            <div class="mobile-nav__time-line">일요일: 휴진</div>
+                            <div class="mobile-nav__time-line">공휴일: 오전 9:00 ~ 오후 1:00</div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div style="background-color:white;">
+        <div class="top-banner">
+            <div style="
+            position:relative;
+            height:300px;
+            background-image:url('img/slide01.jpg');
+            background-size:cover;
+            background-position:center center;
+            ">
+
+            </div>
+            <div style="
+            position:relative;
+            height:300px; 
+            background-image:url('img/slide02.jpg');
+            background-size:cover;
+            background-position:center center;
+            ">
+
+            </div>
+            <div style="
+            position:relative;
+            height:300px;
+            background-image:url('img/slide03.jpg');
+            background-size:cover;
+            "></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__parters">
+            <span>협력업체 &nbsp▶</span>&nbsp
+            <a href="#"><img src="img/partner_logo.png" alt="분당서울대학교병원"></a>
+            <a href="#"><img src="img/parter2_logo.gif" alt="순천향대학교 부속 천안병원"></a>
+            <a href="#"><img src="img/partner3_logo.png" alt="단국대학교 병원"></a>
+        </div>
+        <div class="footer__wrap">
+            <div class="footer__text">
+                상호 : 미즈나래여성병원 &nbsp&nbsp&nbsp 대표자 : 이길우 &nbsp&nbsp&nbsp <span>사업자등록번호 : 312-90-28727</span>
+                <br>사업장주소 : <address>충청남도 천안시 서북구 충무로 158-13(쌍용동)</address> &nbsp&nbsp&nbsp <span class="footer__contact">미즈나래여성병원전화
+                    : 041) 577-8888</span><span> 팩스 : 041) 570-3003</span>
+
+                <div class="sns footer__sns">
+                    <a class="sns__blog" href="#">블로그</a>
+                    <a class="sns__facebook" href="#">페이스북</a>
+                    <a class="sns__instagram" href="#">인스타그램</a>
+                </div>
+
+                <div class="footer__copyright">COPYRIGHTⓒ 2019 MIZNARAE. ALL RIGHTS RESERVED.</div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
