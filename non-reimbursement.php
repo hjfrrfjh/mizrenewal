@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<?php include 'head.php';?>
-    	<link rel="stylesheet" type="text/css" href="css/non-reimbursement.css" />
+    	<link rel="stylesheet" type="text/css" href="css/non_reimbursement.css" />
 	</head>
 
 	<body>
