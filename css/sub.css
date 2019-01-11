@@ -60,7 +60,7 @@ p.mgb{margin-bottom: 0;}
 /*난임센터 탭메뉴*/
 ul.infertility_tab{padding:0;} /*width:50%; margin: 0 auto;*/
 ul.infertility_tab li{list-style: none; width:20%; float:left;}
-ul.infertility_tab li a{display: block; color:#000; line-height: 3.5em; text-align: center; text-decoration: none; border-top:1px solid #ccc; border-left:1px solid #ccc; border-bottom:1px solid #ccc; font-size: 0.9em; font-weight: bold;}
+ul.infertility_tab li a{display: block; color:#000; line-height: 4em; text-align: center; text-decoration: none; border-top:1px solid #ccc; border-left:1px solid #ccc; border-bottom:1px solid #ccc; font-size: 0.9em; font-weight: bold;}
 ul.infertility_tab li:last-child a{border-right:1px solid #ccc;}
 ul.infertility_tab li a.selected{background: #FDFDFD; color:#e96166; cursor:default; border-bottom:none; font-weight: bold; border-bottom:1px solid #ccc;}
 ul.infertility_panel{clear: both; padding: 0;}
@@ -75,14 +75,10 @@ ul.infertility_panel li{padding: 3em 0.5em;}
 /*반응형*/
 @media all and (max-width:600px){
     /*난임센터 탭메뉴*/
-    .infertility_tab li a{height: 4em; line-height: ;}
+    .infertility_tab li a{height: 4em;}
     .infertility_tab .five_tab{line-height: 2em;}
 }
 @media all and (min-width:601px) and (max-width:767px){
-    /*난임센터 탭메뉴*/
-    .infertility_tab li{height: 4em; line-height: 4em;}
-    .infertility_tab .five_tab{ line-height: 4em;}
-    
     /*counseling*/
     .visit_counseling, .call_counseling{display: block;}
 }
