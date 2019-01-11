@@ -66,7 +66,7 @@
                     <h2 class="sub__title">증명서 발급</h2>
                     <ul class="sub__list">
                         <li><a href="certificate.php">증명서 발급</a></li>
-                        <li><a href="non-reimbursement">비급여항목 안내</a></li>
+                        <li><a href="non-reimbursement.php">비급여항목 안내</a></li>
                     </ul>
                 </li>
                 <li class="sub__item">
