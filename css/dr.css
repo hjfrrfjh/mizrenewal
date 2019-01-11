@@ -63,10 +63,10 @@ ul.tab li:last-child a{
 	}
 
 ul.tab li a.selected{
-	background: #e96166; 
-	color:#fff; 
+	background:#FDFDFD; 
+	color:#E96166; 
 	cursor:default; 
-	border-bottom:none;
+	font-weight: bold;
 	}
 
 ul.panel{
