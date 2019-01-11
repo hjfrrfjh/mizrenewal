@@ -8,14 +8,7 @@
 	<body>
 		<?php include 'header.php';?>
 		<div id="header"></div>
-		<nav id="sub-nav">
-			<ul>
-				<li><a href="certificate.php">증명서 발급</a></li>
-				<li>></li>
-				<li><a href="non-reimbursement.php">비급여 항목 안내</a></li>
-			</ul>
-		</nav>
-		
+		<? include 'snb.php' ?>
 		<div id="info">
 		<h2>비급여 항목 안내</h2>
 		<p>의료법 제 1항 및 제 2항, 시행규칙 제42조의 제 2항에 의거하여 건강보험 및 의료급여 대상자의 비급여 진료비용을 고지합니다. 건강보험이 적용되지 않는 비급여 항목과 요양급여의 제외되는 진료비를 확인해보세요.</p>
