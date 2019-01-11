@@ -8,13 +8,7 @@
 	<body>
 		<?php include 'header.php';?>
 		<div id="header"></div>
-		<nav id="sub-nav">
-			<ul>
-				<li><a href="certificate.php">증명서 발급</a></li>
-				<li>></li>
-				<li><a href="non-reimbursement.php">비급여 항목 안내</a></li>
-			</ul>
-		</nav>
+		<? include 'snb.php' ?>
 		<div id="info">
 		<h2>증명서 발급</h2>
 		<p>의료법 제 21조 제 3항 및 시행규칙 제 13조 제 3항에 의거 의무기록(검사 결과지, 초진 기록지, 입·퇴원 기록지, 수술 기록지 등)은 환자의 동의 없이 의무기록 열람 및 사본을 발급 받을 수 없습니다.</p>
