@@ -34,39 +34,39 @@
                 <li class="sub__item">
                     <h2 class="sub__title">미즈나래 소개</h2>
                     <ul class="sub__list">
-                        <li><a href="#">인사말</a></li>
+                        <li><a href="greeting.php">인사말</a></li>
                         <li><a href="#">병원 둘러보기</a></li>
-                        <li><a href="#">의료진 안내</a></li>
-                        <li><a href="#">찾아오시는 길</a></li>
+                        <li><a href="doctor.php">의료진 안내</a></li>
+                        <li><a href="map.php">찾아오시는 길</a></li>
                     </ul>
                 </li>
                 <li class="sub__item">
                     <h2 class="sub__title">진료안내</h2>
                     <ul class="sub__list">
-                        <li><a href="#">산부인과</a></li>
-                        <li><a href="#">감성분만</a></li>
+                        <li><a href="medical.php">산부인과</a></li>
+                        <li><a href="delivery.php">감성분만</a></li>
 
                     </ul>
                 </li>
                 <li class="sub__item">
                     <h2 class="sub__title">난임센터</h2>
                     <ul class="sub__list">
-                        <li><a href="#">난임이란 </a></li>
+                        <li><a href="infertility.php">난임이란 </a></li>
                         <li><a href="#">임신성공사례</a></li>
                     </ul>
                 </li>
                 <li class="sub__item">
                     <h2 class="sub__title">상담/예약</h2>
                     <ul class="sub__list">
-                        <li><a href="#">온라인 상담</a></li>
-                        <li><a href="#">온라인 예약</a></li>
+                        <li><a href="consult.php">온라인 상담</a></li>
+                        <li><a href="reserve.php">온라인 예약</a></li>
                     </ul>
                 </li>
                 <li class="sub__item">
                     <h2 class="sub__title">증명서 발급</h2>
                     <ul class="sub__list">
-                        <li><a href="#">증명서 발급</a></li>
-                        <li><a href="#">비급여항목 안내</a></li>
+                        <li><a href="certificate.php">증명서 발급</a></li>
+                        <li><a href="non-reimbursement.php">비급여항목 안내</a></li>
                     </ul>
                 </li>
                 <li class="sub__item">

@@ -15,9 +15,6 @@ hr{
 	background: url("../img/subh_img.jpg");
 	background-size: cover;
 }
-h2{
-	color: #E54660;
-}
 a{
 	color: #000;
 }
@@ -44,6 +41,7 @@ a{
 #info h2{
 	float: left;
 	font-size: 2vw;
+	color: #E54660;
 }
 #info p{
 	float:left;
@@ -60,6 +58,7 @@ a{
 #rull h2{
 	padding-bottom: 1%;
 	font-size: 2vw;
+	color: #E54660;
 }
 #rull p{
 	font-size:1vw;
@@ -75,6 +74,7 @@ a{
 	font-size: 2vw;
 	padding-bottom: 1%;
 	margin-top: 2%;
+	color: #E54660;
 }
 #top-box p{
 	font-size:1vw;
