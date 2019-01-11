@@ -22,9 +22,9 @@ $(function () {
     });
 
     $('.snb__depth1, .snb__depth2').mouseover(function(){
-        $(this).find('.snb__dropdown').slideDown("fast");
+        $(this).find('.snb__dropdown').stop().slideDown("fast");
     }).mouseleave(function(){
-        $(this).find('.snb__dropdown').slideUp("fast");
+        $(this).find('.snb__dropdown').stop().slideUp("fast");
     });
 
 
