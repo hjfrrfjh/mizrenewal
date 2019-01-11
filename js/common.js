@@ -59,7 +59,7 @@ $(function () {
     function alignSubmenu() {
         var width = $('.gnb ul').width();
         $('.sub .header__wrap').css("width", width + "px");
-        $('.sub').css("top", $gnb.offset().top + $gnb.height() + 2 + "px");
+        // $('.sub').css("top", $gnb.offset().top + $gnb.height() + 2 + "px");
     }
 
     function resetUi() {
@@ -99,7 +99,7 @@ $(function () {
 
             $('.snb__depth1-menu').css("width",width+"px");
             $('.snb__depth2-menu').css("width",width2+"px");
-
+            
         } else {
             $('.sub').hide();
             stickyHeader();
