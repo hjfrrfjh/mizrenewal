@@ -18,6 +18,7 @@ $(function () {
         $(this).addClass("gnb__item--active");
 
         $('.sub').stop().slideDown("fast");
+        // $('.snb__dropdown').stop();
     });
 
     $('.snb__depth1, .snb__depth2').mouseover(function(){
