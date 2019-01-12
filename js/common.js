@@ -71,6 +71,7 @@ $(function () {
     }
 
     function stickyNav() {
+        if($snb.length==0) return; //서브메뉴가 없는 경우
         var stickyPoint = $snb.offset().top;
 
         if ($window.scrollTop() > stickyPoint) {
@@ -90,6 +91,7 @@ $(function () {
 
     function uiChange() {
         if ($window.width() >= 764) {
+            $header.css("padding-top", 0);
             $logoArea.removeClass("header__logo-area--sticky");
             stickyNav();
             alignSubmenu();
