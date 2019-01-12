@@ -267,6 +267,12 @@ body{
     z-index:103;
 }
 
+.sub .header__wrap{
+    background-image:url('../img/gnbbg.png');
+    background-repeat:no-repeat;
+    background-position:top right;
+}
+
 .sub__title{
     padding:80px 20px;
     display:inline-block;

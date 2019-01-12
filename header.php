@@ -1,6 +1,6 @@
 <header class="header">
     <div class="header__logo-area clearfix header__wrap">
-        <a href="#"><img class="logo" src="img/logo_4.png" alt="로고"></a>
+        <a href="index.php"><img class="logo" src="img/logo_4.png" alt="로고"></a>
 
         <div class="header__phone"><span>고객상담 <i class="fas fa-phone-square"></i></span><br>
             <h2>041-577-8888</h2>
