@@ -21,12 +21,12 @@
     <div class="header__nav-area">
         <nav class="gnb">
             <ul class="clearfix">
-                <li><a class="gnb__item" href="greeting.php" data-target="1"><span>미즈나래 소개</span></a></li>
-                <li><a class="gnb__item" href="medical.php" data-target="2"><span>진료안내</span></a></li>
-                <li><a class="gnb__item" href="infertility.php" data-target="3"><span>난임센터</span></a></li>
-                <li><a class="gnb__item" href="consult.php" data-target="4"><span>상담/예약</span></a></li>
-                <li><a class="gnb__item" href="certificate.php" data-target="5"><span>증명서발급</span></a></li>
-                <li><a class="gnb__item" href="#" data-target="6"><span>고객서비스</span></a></li>
+                <li class="gnb__item" ><a data-target=1 href="greeting.php"><span>미즈나래 소개</span></a></li>
+                <li class="gnb__item" ><a data-target=2 href="medical.php"><span>진료안내</span></a></li>
+                <li class="gnb__item" ><a data-target=3 href="infertility.php"><span>난임센터</span></a></li>
+                <li class="gnb__item" ><a data-target=4 href="consult.php"><span>상담/예약</span></a></li>
+                <li class="gnb__item" ><a data-target=5 href="certificate.php"><span>증명서발급</span></a></li>
+                <li class="gnb__item" ><a data-target=6 href="#"><span>고객서비스</span></a></li>
             </ul>
         </nav>
         <nav class="sub">

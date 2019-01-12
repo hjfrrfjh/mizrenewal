@@ -232,7 +232,7 @@ body{
     font-size:1.0rem;
 }
 
-.gnb > ul > li{
+.gnb__item{
     float:left;
 }
 
@@ -242,6 +242,10 @@ body{
     padding-right:40px;
     color:inherit;
     font-weight: bold;
+}
+
+.gnb__item a{
+    color:inherit;
 }
 
 .gnb__item span{

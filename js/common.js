@@ -9,10 +9,11 @@ $(function () {
     var $snbWrap = $('.snb__wrap');
 
     // 서브메뉴 슬라이드
-    $('.gnb__item').mouseover(function () {
+    $('.gnb__item a').mouseover(function () {
         var target = $(this).attr('data-target');
+
         $('.sub__item').hide();
-        $('.gnb__item').removeClass("gnb__item--active");
+        $('.gnb__item a').removeClass("gnb__item--active");
 
         $('.sub__item:nth-child(' + target + ')').show();
         $(this).addClass("gnb__item--active");
