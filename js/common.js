@@ -8,7 +8,7 @@ $(function () {
     var $snb = $('.snb');
     var $snbWrap = $('.snb__wrap');
 
-    // 서브메뉴 슬라이드
+    // gnb hover
     $('.gnb__item a').mouseover(function () {
         var target = $(this).attr('data-target');
 
@@ -22,6 +22,13 @@ $(function () {
         // $('.snb__dropdown').stop();
     });
 
+    // gnb leave
+    $('.header__nav-area').mouseleave(function () {
+        $('.sub').stop().slideUp("fast");
+        $('.gnb__item a').removeClass("gnb__item--active");
+    });
+
+    //snb hover, leave
     $('.snb__depth1, .snb__depth2').mouseover(function(){
         $(this).find('.snb__dropdown').stop().slideDown("fast");
     }).mouseleave(function(){
@@ -29,11 +36,6 @@ $(function () {
     });
 
 
-    //메뉴 호버시 밑줄
-    $('.header__nav-area').mouseleave(function () {
-        $('.sub').stop().slideUp("fast");
-        $('.gnb__item').removeClass("gnb__item--active");
-    });
 
     // 햄버거-> 모바일 메뉴 
     $('.hamburger__checkbox').click(function () {
