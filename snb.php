@@ -8,119 +8,119 @@
     // 증명서발급 certificate.php, non-reimbursement.php
     // 고객서비스 아직없음
 
-    $menu=[
-        [
+    $menu=array(
+        array(
             "name"=>"미즈나래 소개",
             "href"=>"greeting.php",
             "sub"=>
-            [
-                [
+            array(
+                array(
                     "name"=>"인삿말",
                     "href"=>"greeting.php"
-                ]
-                ,[
+                )
+                ,array(
                     "name"=>"병원 둘러보기",
                     "href"=>"#"
-                ]
-                ,[
+                )
+                ,array(
                     "name"=>"의료진 안내",
                     "href"=>"doctor.php"
-                ]
-                ,[
+                )
+                ,array(
                     "name"=>"찾아오시는 길",
                     "href"=>"map.php"
-                ]
-            ]
-        ]
+                )
+            )
+        )
         ,
-        [
+        array(
             "name"=>"진료안내",
             "href"=>"medical.php",
             "sub"=>
-            [
-                [
+            array(
+                array(
                     "name"=>"산부인과",
                     "href"=>"medical.php"
-                ]
-                ,[
+                )
+                ,array(
                     "name"=>"감성분만",
                     "href"=>"delivery.php"
-                ]
-            ]
-        ]
+                )
+            )
+        )
         ,
-        [
+        array(
             "name"=>"난임센터",
             "href"=>"infertility.php",
             "sub"=>
-            [
-                [
+            array(
+                array(
                     "name"=>"난임이란",
                     "href"=>"infertility.php"
-                ]
-                ,[
+                )
+                ,array(
                     "name"=>"임신성공 사례",
                     "href"=>"#"
-                ]
-            ]
-        ]
+                )
+            )
+        )
         ,
-        [
+        array(
             "name"=>"상담/예약",
             "href"=>"consult.php",
             "sub"=>
-            [
-                [
+            array(
+                array(
                     "name"=>"온라인 상담",
                     "href"=>"consult.php"
-                ]
-                ,[
+                )
+                ,array(
                     "name"=>"온라인 예약",
                     "href"=>"reserve.php"
-                ]
-            ]
-        ]
+                )
+            )
+        )
         ,
-        [
+        array(
             "name"=>"증명서 발급",
             "href"=>"certificate.php",
             "sub"=>
-            [
-                [
+            array(
+                array(
                     "name"=>"증명서 발급",
                     "href"=>"certificate.php"
-                ]
-                ,[
+                )
+                ,array(
                     "name"=>"비급여항목 안내",
                     "href"=>"non-reimbursement.php"
-                ]
-            ]
-        ]
+                )
+            )
+        )
         ,
-        [
+        array(
             "name"=>"고객서비스",
             "href"=>"#",
             "sub"=>
-            [
-                [
+            array(
+                array(
                     "name"=>"병원소식",
                     "href"=>"#"
-                ]
-                ,[
+                )
+                ,array(
                     "name"=>"보도자료",
                     "href"=>"#"
-                ]
-                ,[
+                )
+                ,array(
                     "name"=>"QnA",
                     "href"=>"#"
-                ]
-                ,[
+                )
+                ,array(
                     "name"=>"병원이용후기",
                     "href"=>"#"
-                ]
-            ]
-        ]
-    ];
+                )
+            )
+        )
+    );
 
     $flag=false;
     foreach ($menu as $menu_item) {
