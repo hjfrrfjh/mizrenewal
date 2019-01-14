@@ -1,0 +1,246 @@
+		     *{
+			margin: 0;
+			padding: 0;
+			text-decoration: none;
+			list-style: none;
+		    }
+		    
+		    .content{
+		    	max-width:1200px;
+		    	margin: 0 auto;
+		    }
+			#top{
+				
+				width: 100%;
+				height: 300px;
+			}
+			.top_menu1{
+				border:1px solid #D5D5D5;
+				width: 48%;
+				float:left;
+			}
+			.top_menu1 li{
+				border:1px solid #fff;
+				text-align: center;
+				width: 200px;
+				height:70px;
+				line-height:70px;
+				background-color: #E96166;
+			}
+			.top_menu1 li a{
+				color:#fff;
+			}
+			.top_menu2{
+				/*border:1px solid red;*/
+				width: 50%;
+				height:290px;
+				float: right;
+				background-color: #E96166;
+				text-align: center;
+			}
+			.top_button{
+				border:2px solid #fff;
+				width: 60%;
+				height:30px;
+				line-height:30px;
+				text-align:center;
+				margin: 0 auto;
+				margin-top: 180px;
+			}
+			.top_button:hover{
+				background-color:rgba(255,255,255,0.3);
+			}
+			.top_button a{
+				color:#fff;
+			}
+			.top_menu2 p,h2{
+				color:#fff;
+			}
+			.top_menu2 h2{
+				margin-top: 10px;
+			}
+			#center{
+				/*border:1px solid red;*/
+			}
+			#bottom{
+				/*border:1px solid red;*/
+			}
+			.bottom_menu1{
+				width: 49%;
+				height:250px;
+				float: left;
+				background: url("../img/background5_test.jpg");
+	            background-size:cover;
+	            background-position: center center;
+			}
+			.bottom_menu1 h2{
+				color:black;
+			}
+			.bottom_menu2 h2{
+				color:black;
+			}
+			.bottom_menu2{
+				width: 50%;
+				height:250px;
+				float: right;
+				background: url("../img/f064_test.jpg");
+			    background-size:cover;
+				
+			}
+			.button2{
+				width: 20%;
+				height:30px;
+				line-height:30px;
+				text-align: center;
+				background-color:rgba(255,255,255,0.3);
+				margin-top: 10px;
+			}
+			.button2:hover{
+				background-color: rgba(255,255,255,0.5);
+			}
+			.button2 a{
+				color:#fff;
+			}
+			#bottom{
+				margin-top: 20px;
+				width: 100%;
+				height: 200px;
+			}
+			#map{
+				text-align: center;
+			}
+			#head{
+				display: inline-block;
+				margin-bottom: 20px;
+				margin-top: 20px;
+			}
+		#head i{
+			font-size: 22px;
+		}
+		#head p{
+			font-weight: bold;
+		}
+			
+			.box{
+				width: 23.5%;
+				height:260px;
+				border:1px solid #D5D5D5;
+				float: left;
+				margin-top: 10px;
+				margin-left: 5px;
+				padding: 5px;
+			}
+			.box p{
+				display: inline-block;
+			}
+			.box h4{
+				width: 80%;
+				float: right;
+				color:#E64661;
+				margin-bottom: 8px;
+				margin-top: 3px;
+			}
+			.box i{
+				margin-left: 130px;
+			}
+			.box img{
+				float: left;
+				width: 30px;
+				height: 26px;
+			}
+			#center{
+				height: 290px;
+			}
+			.text{
+				padding-left: 30px;
+				padding-top: 30px;
+			}
+			.text h2{
+				border-bottom:4px solid #fff;
+				display: inline-block;
+				height: 40px;
+				color:#fff;
+			}
+			.text p{
+				color:#fff;
+				/*font-weight: bold;
+				font-family: "돋움";*/
+			}
+			.button{
+				border:2px solid #E96166;
+				text-align: center;
+				width: 50%;
+				height: 30px;
+				line-height: 30px;
+				margin: 0 auto;
+				margin-top: 20px;
+				
+			}
+			.button_{
+				border:2px solid #E96166;
+				text-align: center;
+				width: 50%;
+				height: 30px;
+				line-height: 30px;
+				margin: 0 auto;
+				margin-top: 20px;
+			}
+			.button a{
+				color:#E96166;
+				font-weight: bold;
+			}
+			.button_ a{
+				color:#E96166;
+				font-weight: bold;
+			}
+			.form label{
+				margin-left: 20px;
+				float:left;
+				color:#fff;
+				font-weight: bold;
+			}
+			.form input{
+				float: right;
+				width:200px;
+				height: 25px;
+			}
+			.form{
+				width: 60%;
+				display:inline-block;
+				float: left;
+		
+				margin-top: 20px;
+			}
+			.form_right{
+				width: 40%;
+				float:right;
+				margin-top: 20px;
+			}
+			.form_right textarea{
+			
+				height: 125px;
+				width: 200px;
+			}
+			.box p{
+				font-weight: bold;
+				margin-top: 6px;
+			}
+			
+			.img img{
+				width:100%;
+			}
+			.img{
+				/*border:1px solid red;*/
+				width: 63%;
+				float: right;
+			}
+			.top_menu1_left{
+				float:left;
+			}
+			
+			
+			@media (min-width:767px){
+				
+			}
+			
+

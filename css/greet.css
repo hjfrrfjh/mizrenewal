@@ -17,7 +17,7 @@
 }
 
 .section{
-	width: 1200px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 .h{
@@ -27,7 +27,7 @@
 	margin-bottom: 50px;
 }
 .photo img{
-   max-width:70%;
+   width:70%;
 }
 .photo{
 	text-align: center;
@@ -60,6 +60,7 @@
 }
 .boxwrap{
 	margin-top: 80px;
+	width: 100%;
 }
 .box{
 	width:32%;
@@ -69,7 +70,7 @@
 	margin-left:1%;
 }
 .box img{
-	max-width: 100%;
+	width: 100%;
 	display: block;
 }
 .texttbox{
@@ -95,7 +96,43 @@
 
 @media all and (min-width:768px)and (max-width:1023px){ /*태블릿용*/
 .section{
-	width:980px;
+	max-width:980px;
 	margin: 0 auto;
 }
+.boxwrap{
+	margin-top: 80px;
+	width: 100%;
+}
+.box{
+	width:31.7%;
+	display: inline-block;
+	height: 500px;
+	vertical-align: middle;
+	margin-left:1%;
+}}
 @media all and (max-width:767px){ /*모바일용*/
+.text2 h2 span{
+	font-size:30px;
+}
+
+.text2{
+	font-size:14px;
+}
+.text2 h2{
+	font-size: 17px;
+}
+.box{
+	width:98%;
+	height: 500px;
+	vertical-align: middle;
+	display:block;
+	margin-left:1%;
+	margin-bottom:50px;
+}
+.boxwrap{
+	margin-top:80px;
+	margin-bottom:80px;
+	width: 100%;
+}
+}
+	
