@@ -11,25 +11,25 @@ echo "
 <div class="quick-menu">
     <ul>
         <li class="icon-box">
-            <a href="#" class="icon-box__container">
+            <a href="medical.php" class="icon-box__container">
                 <i class="icon-font icon-box__icon">&#xe800;</i>    
                 <div class="icon-box__text">진료안내</div>
             </a>
         </li>
         <li class="icon-box">
-            <a href="#" class="icon-box__container">
+            <a href="consult.php" class="icon-box__container">
                 <i class="icon-font icon-box__icon">&#xe801;</i>    
                 <div class="icon-box__text">상담</div>
             </a>
         </li>
         <li class="icon-box">
-            <a href="#" class="icon-box__container">
+            <a href="reserve.php" class="icon-box__container">
                 <i class="icon-font icon-box__icon">&#xe802;</i>    
                 <div class="icon-box__text">예약</div>
             </a>
         </li>
         <li class="icon-box">
-            <a href="#" class="icon-box__container">
+            <a href="certificate.php" class="icon-box__container">
                 <i class="icon-font icon-box__icon">&#xe803;</i>    
                 <div class="icon-box__text">증명서</div>
             </a>
