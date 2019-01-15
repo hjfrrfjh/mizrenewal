@@ -14,6 +14,23 @@
     text-decoration:none;
 }
 
+@font-face {
+    font-family: 'miz_icon';
+    src: url('../icon_font/miz_icon.eot?99896748');
+    src: url('../icon_font/miz_icon.eot?99896748#iefix') format('embedded-opentype'),
+         url('../icon_font/miz_icon.woff?99896748') format('woff'),
+         url('../icon_font/miz_icon.ttf?99896748') format('truetype'),
+         url('../icon_font/miz_icon.svg?99896748#miz_icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.icon-font{
+    font-family: "miz_icon";
+    font-style: normal;
+    font-weight: normal;
+    font-family: "miz_icon";
+}
 
 body{
     font-family: 'Noto Sans','Nanum Gothic', sans-serif;
@@ -625,6 +642,55 @@ address{
     margin-top: 1em;
 }
 
+.quick-menu{
+    position:absolute;
+    top:50%;
+    transform:translate(0,-50%);
+    right:50px;
+    background-color:var(--base-color-light);
+    z-index:100;
+    color:white;
+    box-shadow:1px 1px 1px rgba(0,0,0,0.1);
+}
+
+.icon-box{
+    position:relative;
+    color:white;
+    text-align:center;
+    width:70px;
+    height:70px;
+    text-align:center;
+    border-top:1px solid #ee8185;
+    box-sizing:border-box;
+}
+.icon-box:hover{
+    background-color:var(--base-color);
+}
+
+.icon-box__container{
+    display:block;
+    color:white;
+    position:absolute;
+    top:50%;
+    left:0;
+    right:0;
+    transform:translate(0,-50%);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.icon-box__icon{
+    font-size:1.3rem;
+}
+
+.icon-box__text{
+    margin-top:0.4em;
+    font-size:0.8rem;
+}
+
+.quick-menu__container ul li{
+    
+}
+
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ미디어쿼리ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
 
 /* 메뉴크기 조절 */
@@ -649,7 +715,7 @@ address{
 
 /* 모바일 */
 @media all and (max-width:763px){
-    .gnb, .header__text, .header__phone, .snb{
+    .gnb, .header__text, .header__phone, .snb, .quick-menu{
         display:none;
     }
 
