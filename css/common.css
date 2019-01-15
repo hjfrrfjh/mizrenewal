@@ -10,6 +10,7 @@
     --color5:#f3f3f3;
     --orange: #f7d785;
     --color-grey:rgb(104, 104, 104);
+    --dark:rgb(60, 60, 60);
     list-style:none;
     text-decoration:none;
 }
@@ -717,6 +718,11 @@ address{
     transform:translate(0,-50%);
 }
 
+
+.top-banner{
+    font-size:1rem;
+}
+
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ미디어쿼리ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
 
 /* 메뉴크기 조절 */
@@ -743,6 +749,10 @@ address{
 @media all and (max-width:763px){
     .gnb, .header__text, .header__phone, .snb, .quick-menu{
         display:none;
+    }
+
+    .top-banner{
+        font-size:0.7rem;
     }
 
     .logo{
