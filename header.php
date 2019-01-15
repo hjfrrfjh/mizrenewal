@@ -26,7 +26,7 @@
                 <li class="gnb__item" ><a data-target=3 href="infertility.php"><span>난임센터</span></a></li>
                 <li class="gnb__item" ><a data-target=4 href="consult.php"><span>상담/예약</span></a></li>
                 <li class="gnb__item" ><a data-target=5 href="certificate.php"><span>증명서발급</span></a></li>
-                <li class="gnb__item" ><a data-target=6 href="#"><span>고객서비스</span></a></li>
+                <li class="gnb__item" ><a data-target=6 href="news.php"><span>고객서비스</span></a></li>
             </ul>
         </nav>
         <nav class="sub">
@@ -35,7 +35,7 @@
                     <h2 class="sub__title">미즈나래 소개</h2>
                     <ul class="sub__list">
                         <li><a href="greeting.php">인사말</a></li>
-                        <li><a href="#">병원 둘러보기</a></li>
+                        <li><a href="facilities.php">병원 둘러보기</a></li>
                         <li><a href="doctor.php">의료진 안내</a></li>
                         <li><a href="map.php">찾아오시는 길</a></li>
                     </ul>
@@ -52,7 +52,7 @@
                     <h2 class="sub__title">난임센터</h2>
                     <ul class="sub__list">
                         <li><a href="infertility.php">난임이란 </a></li>
-                        <li><a href="#">임신성공사례</a></li>
+                        <li><a href="case.php">임신성공사례</a></li>
                     </ul>
                 </li>
                 <li class="sub__item">
@@ -72,10 +72,10 @@
                 <li class="sub__item">
                     <h2 class="sub__title">고객 서비스</h2>
                     <ul class="sub__list">
-                        <li><a href="#">병원소식</a></li>
-                        <li><a href="#">보도자료</a></li>
-                        <li><a href="#">QnA</a></li>
-                        <li><a href="#">병원이용후기</a></li>
+                        <li><a href="news.php">병원소식</a></li>
+                        <li><a href="media.php">보도자료</a></li>
+                        <li><a href="qna.php">QnA</a></li>
+                        <li><a href="reviews.php">병원이용후기</a></li>
                     </ul>
                 </li>
             </ul>
@@ -87,7 +87,7 @@
                         <a href="#"><span class="mobile-nav__1depth-title">미즈나래 소개</span><span class="mobile-nav__arrow"></span></a>
                         <ul class="mobile-nav__2depth">
                             <li><a href="greeting.php">인사말</a></li>
-                            <li><a href="#">병원 둘러보기</a></li>
+                            <li><a href="facilities.php">병원 둘러보기</a></li>
                             <li><a href="doctor.php">의료진 안내</a></li>
                             <li><a href="mpa.php">찾아오시는 길</a></li>
                         </ul>
@@ -107,7 +107,7 @@
                         <a href="#"><span class="mobile-nav__1depth-title">난임센터</span><span class="mobile-nav__arrow"></span></a>
                         <ul class="mobile-nav__2depth">
                             <li><a href="infertility.php">난임이란 </a></li>
-                            <li><a href="#">임신성공 사례</a></li>
+                            <li><a href="case.php">임신성공 사례</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -133,10 +133,10 @@
                     <li class="mobile-nav__1depth-item">
                         <a href="#"><span class="mobile-nav__1depth-title">고객 서비스</span><span class="mobile-nav__arrow"></span></a>
                         <ul class="mobile-nav__2depth">
-                            <li><a href="#">병원 소식</a></li>
-                            <li><a href="#">보도자료</a></li>
-                            <li><a href="#">QnA</a></li>
-                            <li><a href="#">병원이용 후기</a></li>
+                            <li><a href="news.php">병원 소식</a></li>
+                            <li><a href="media.php">보도자료</a></li>
+                            <li><a href="qna.php">QnA</a></li>
+                            <li><a href="reviews.php">병원이용 후기</a></li>
                         </ul>
                     </li>
                 </ul>
