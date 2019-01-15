@@ -1,3 +1,7 @@
+<a href="#" class="top-button">
+        <span><i class="icon-font icon-box__icon">&#xe804;</i></span>
+</a>
+
 <footer class="footer">
     <div class="footer__parters">
         <span>협력업체 &nbsp;▶</span>&nbsp;
