@@ -48,6 +48,7 @@ $(function(){
     	</ul>
     	<ul class="panel clearfix">
     		<li id="tab1">
+    			<div class="tabwrap">
     			<div class="nameline">
             		<h2>이길우 원장</h2>
             	</div>
@@ -85,6 +86,7 @@ $(function(){
 </p>
               </div>
    <div class="clear"> </div>
+   
    <div class="nameline">
             		<h2>윤창범 원장</h2>
             	</div>
@@ -126,6 +128,7 @@ $(function(){
             		<h2>배동한 원장</h2>
             	</div>  
             	<div class="clear"> </div> 
+            	
                    <div class="table_p">
                   <img src="img/sub/medical01_popup05.png" alt="배동한 원장">
               </div> 
@@ -154,9 +157,12 @@ $(function(){
 2016년 보령의료봉사상 수상<br>
 <br>
             	</p>
-            </div>  
+            </div> 
+           
+            </div> 
     		</li>
     		<li id="tab2">
+    			<div class="tabwrap"> 
     			<div class="nameline2">
             		<h2>난임 연구소장 한진철</h2>
             	</div>
@@ -195,6 +201,7 @@ $(function(){
                </div>
     		</li>
     	</ul>
+    	</div>
     </div>
     </div>
     
