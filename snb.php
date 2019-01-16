@@ -20,7 +20,7 @@
                 )
                 ,array(
                     "name"=>"병원 둘러보기",
-                    "href"=>"#"
+                    "href"=>"facilities.php"
                 )
                 ,array(
                     "name"=>"의료진 안내",
@@ -60,7 +60,7 @@
                 )
                 ,array(
                     "name"=>"임신성공 사례",
-                    "href"=>"#"
+                    "href"=>"case.php"
                 )
             )
         )
@@ -99,24 +99,24 @@
         ,
         array(
             "name"=>"고객서비스",
-            "href"=>"#",
+            "href"=>"news.php",
             "sub"=>
             array(
                 array(
                     "name"=>"병원소식",
-                    "href"=>"#"
+                    "href"=>"news.php"
                 )
                 ,array(
                     "name"=>"보도자료",
-                    "href"=>"#"
+                    "href"=>"media.php"
                 )
                 ,array(
                     "name"=>"QnA",
-                    "href"=>"#"
+                    "href"=>"qna.php"
                 )
                 ,array(
                     "name"=>"병원이용후기",
-                    "href"=>"#"
+                    "href"=>"reviews.php"
                 )
             )
         )
