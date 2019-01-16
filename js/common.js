@@ -118,8 +118,8 @@ $(function () {
 
     $window.scroll(function () {
         uiChange();
+
     });
 
     uiChange();
-
 });
