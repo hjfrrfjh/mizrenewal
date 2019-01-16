@@ -24,6 +24,7 @@
 
 <body>
     <? include 'header.php' ?>
+    <div class="submainimg"><img src="img/sub/infertility.jpg" alt="난임센터"></div>
     <? include 'snb.php' ?>
     <div class="content">
         <h1 class="sub_title">난임이란</h1>
@@ -253,6 +254,7 @@
             </ul>
         </div>
     </div>
+    <? include 'quickmenu.php' ?>
     <? include 'footer.php' ?>
 </body>
 

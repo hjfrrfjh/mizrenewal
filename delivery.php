@@ -10,6 +10,7 @@
 
 <body>
     <? include 'header.php' ?>
+    <div class="submainimg"><img src="img/sub/medical.jpg" alt="진료안"></div>
     <? include 'snb.php' ?>
     
     <div class="content">
@@ -38,6 +39,7 @@
             </p>
         </div>
     </div>
+    <? include 'quickmenu.php' ?>
     <? include 'footer.php' ?>
 </body>
 
