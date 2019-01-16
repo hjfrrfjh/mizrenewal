@@ -2,7 +2,7 @@
 .content{max-width:1200px; margin:5em auto; position: relative;}
 
 /*서브 메인이미지*/
-.submainimg img{width:100%; display: block;}
+.submainimg img{width:100%; display: block; height: 300px;}
 
 /*title, text*/
 h1.sub_title{margin:2em 0; text-align: center; text-indent: 0.5em;}
