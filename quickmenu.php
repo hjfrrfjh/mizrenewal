@@ -72,6 +72,8 @@ echo "
                 $quick_menu.css("right",quick_menu_gap+px);
             }
         });
+
+        $(window).trigger('resize');
     });
 
 </script>

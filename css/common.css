@@ -736,7 +736,7 @@ address{
 }
 
 /* 태블릿 */
-@media all and (min-width:764px) and (max-width:1023px){
+@media all and (min-width:768px) and (max-width:1023px){
     body{
     }
     .gnb__item{
@@ -746,7 +746,7 @@ address{
 }
 
 /* 모바일 */
-@media all and (max-width:763px){
+@media all and (max-width:767px){
     .gnb, .header__text, .header__phone, .snb, .quick-menu{
         display:none;
     }
