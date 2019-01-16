@@ -10,10 +10,27 @@
     --color5:#f3f3f3;
     --orange: #f7d785;
     --color-grey:rgb(104, 104, 104);
+    --dark:rgb(60, 60, 60);
     list-style:none;
     text-decoration:none;
 }
 
+
+@font-face {
+    font-family: 'miz_icon';
+    src: url('../icon_font/miz_icon.eot?39376374');
+    src: url('../icon_font/miz_icon.eot?39376374#iefix') format('embedded-opentype'),
+         url('../icon_font/miz_icon.woff?39376374') format('woff'),
+         url('../icon_font/miz_icon.ttf?39376374') format('truetype'),
+         url('../icon_font/miz_icon.svg?39376374#miz_icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.icon-font{
+    font-family: "miz_icon";
+    font-style: normal;
+}
 
 body{
     font-family: 'Noto Sans','Nanum Gothic', sans-serif;
@@ -232,7 +249,7 @@ body{
     font-size:1.0rem;
 }
 
-.gnb > ul > li{
+.gnb__item{
     float:left;
 }
 
@@ -242,6 +259,10 @@ body{
     padding-right:40px;
     color:inherit;
     font-weight: bold;
+}
+
+.gnb__item a{
+    color:inherit;
 }
 
 .gnb__item span{
@@ -265,6 +286,12 @@ body{
     background-color:white;
     display:none;
     z-index:103;
+}
+
+.sub .header__wrap{
+    background-image:url('../img/gnbbg.png');
+    background-repeat:no-repeat;
+    background-position:top right;
 }
 
 .sub__title{
@@ -615,6 +642,87 @@ address{
     margin-top: 1em;
 }
 
+.quick-menu{
+    position:absolute;
+    top:50%;
+    transform:translate(0,-50%);
+    right:50px;
+    background-color:var(--base-color-light);
+    z-index:100;
+    color:white;
+    box-shadow:1px 1px 1px rgba(0,0,0,0.1);
+}
+
+.icon-box{
+    position:relative;
+    color:white;
+    text-align:center;
+    width:70px;
+    height:70px;
+    text-align:center;
+    border-top:1px solid #ee8185;
+    box-sizing:border-box;
+}
+.icon-box:hover{
+    background-color:var(--base-color);
+}
+
+.icon-box__container{
+    display:block;
+    color:white;
+    position:absolute;
+    top:50%;
+    left:0;
+    right:0;
+    transform:translate(0,-50%);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.icon-box__icon{
+    font-size:1.3rem;
+}
+
+.icon-box__text{
+    margin-top:0.4em;
+    font-size:0.8rem;
+}
+
+.top-button{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    height:50px;
+    width:50px;
+    /* border:1px solid rgb(60, 60, 60); */
+    background-color:rgba(0,0,0,0.2);
+    border-radius:50%;
+    display:block;
+    color:rgb(60, 60, 60);
+    z-index:101;
+    font-size:0.8rem;
+    color:white;
+}
+
+.top-button:hover{
+    background-color:rgba(255,255,255,0.3);
+    color:black;
+}
+
+
+.top-button span{
+    position:absolute;
+    top: 50%;
+    left:0;
+    right:0;
+    text-align:center;
+    transform:translate(0,-50%);
+}
+
+
+.top-banner{
+    font-size:1rem;
+}
+
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ미디어쿼리ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
 
 /* 메뉴크기 조절 */
@@ -639,8 +747,12 @@ address{
 
 /* 모바일 */
 @media all and (max-width:763px){
-    .gnb, .header__text, .header__phone, .snb{
+    .gnb, .header__text, .header__phone, .snb, .quick-menu{
         display:none;
+    }
+
+    .top-banner{
+        font-size:0.7rem;
     }
 
     .logo{
