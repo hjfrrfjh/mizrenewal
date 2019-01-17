@@ -4,9 +4,11 @@
   justify-content: center;
   align-items: center;
   flex-flow: wrap;
-  margin: 0;
+  margin: 0 auto;
   height: 100%;
   margin-bottom: 30px;
+  max-width: 1300px;
+
 }
 .mizintroimg{width:100%; display: block; height: 200px; background: url('../img/sub/intro.jpg')no-repeat; background-size: cover; background-position: 0 -80px;}
 #text{
@@ -29,7 +31,7 @@ figure.img_box {
   overflow: hidden;
   margin: 10px;
   min-width: 220px;
-  max-width: 310px;
+  max-width: 300px;
   max-height: 220px;
   width: 100%;
   background: #E96166;
