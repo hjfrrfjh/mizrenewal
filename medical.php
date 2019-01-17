@@ -10,7 +10,7 @@
 
 <body>
     <? include 'header.php' ?>
-    <div class="submainimg1"></div>
+    <div class="medicalimg"></div>
     <? include 'snb.php' ?>
     <div class="content">
         <h1 class="sub_title">산부인과</h1>

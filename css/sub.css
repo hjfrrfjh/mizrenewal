@@ -2,8 +2,8 @@
 .content{max-width:1200px; margin:5em auto; position: relative;}
 
 /*서브 메인이미지*/
-.submainimg1{width:100%; display: block; height: 200px; background: url('../img/sub/medical.jpg')no-repeat; background-size: cover; background-position: 0 -80px;}
-.submainimg2{width:100%; display: block; height: 200px; background: url('../img/sub/infertility.jpg')no-repeat; background-size: cover; background-position: 0 -80px;}
+.medicalimg{width:100%; display: block; height: 200px; background: url('../img/sub/medical.jpg')no-repeat; background-size: cover; background-position: 0 -80px;}
+.infertilityimg{width:100%; display: block; height: 200px; background: url('../img/sub/infertility.jpg')no-repeat; background-size: cover; background-position: 0 -80px;}
 
 /*title, text*/
 h1.sub_title{margin:2em 0; text-align: center; text-indent: 0.5em;}
