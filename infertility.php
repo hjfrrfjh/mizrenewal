@@ -24,7 +24,7 @@
 
 <body>
     <? include 'header.php' ?>
-    <div class="submainimg2"></div>
+    <div class="infertilityimg"></div>
     <? include 'snb.php' ?>
     <div class="content">
         <h1 class="sub_title">난임이란</h1>
