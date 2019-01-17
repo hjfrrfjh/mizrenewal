@@ -2,7 +2,7 @@
 echo "
 <script>
     var quick_max_width = 1200;
-    var quick_min_top = 500;
+    var quick_min_top = 580;
 </script>
 ";
 ?>
@@ -62,9 +62,11 @@ echo "
             $quick_menu.animate( { "top": top + "px" }, 800 );
         });
         
+
         $(window).resize(function () {
             window_height = $(window).height();
             var window_width = $(window).width();
+            
             
             if (window_width >=break_point) {
                 $quick_menu.css("right",((window_width-quick_max_width)/2)-(quick_menu_width+quick_menu_gap)+"px");
@@ -73,7 +75,16 @@ echo "
             }
         });
 
-        $(window).trigger('resize');
+        var top = $(document).scrollTop() + (window_height/2);
+
+        if(top<quick_min_top){
+            top=quick_min_top;
+        }
+
+        $quick_menu.css("top",top+"px");
+
     });
+
+
 
 </script>

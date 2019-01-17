@@ -135,9 +135,9 @@
 					공휴일
 				</p><span> 오전9:00~오후1:00</span>
 				<br />
-				<div class="box__button">
-					<a href="#">예약 신청</a>
-				</div>
+				<a class="box__button" href="reserve.php">
+					예약 신청
+				</a>
 			</div>
 			<div class="box">
 				<img src="img/icon3.PNG" />
@@ -159,9 +159,9 @@
 				<p>
 					3.원무과에서 수납 증명서발행
 				</p>
-				<div class="box__button">
-					<a href="#">자세히 보기</a>
-				</div>
+				<a class="box__button" href="certificate.php">
+						자세히 보기
+				</a>
 			</div>
 			<div class="box">
 				<img src="img/icon4.PNG" />
@@ -201,7 +201,7 @@
 						출산을 하는 것을 말합니다.
 					</p>
 					<div class="bottom_menu__button">
-						<a href="#">자세히 ></a>
+						<a href="delivery.php">자세히 ></a>
 					</div>
 				</div>
 			</section>
@@ -216,7 +216,7 @@
 						행복함을 느껴보세요.
 					</p>
 					<div class="bottom_menu__button">
-						<a href="#">자세히 ></a>
+						<a href="infertility.php">자세히 ></a>
 					</div>
 				</div>
 			</section>
