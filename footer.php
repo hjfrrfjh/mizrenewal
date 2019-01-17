@@ -5,9 +5,9 @@
 <footer class="footer">
     <div class="footer__parters">
         <span>협력업체 &nbsp;▶</span>&nbsp;
-        <div><a href="#"><img src="img/partner_logo.png" alt="분당서울대학교병원"></a></div>
-        <div><a href="#"><img src="img/parter2_logo.gif" alt="순천향대학교 부속 천안병원"></a></div>
-        <div><a href="#"><img src="img/partner3_logo.png" alt="단국대학교 병원"></a></div>
+        <div><a href="https://www.snubh.org" target="_blank"><img src="img/partner_logo.png" alt="분당서울대학교병원"></a></div>
+        <div><a href="http://www.schmc.ac.kr/cheonan/kor/index.do" target="_blank"><img src="img/parter2_logo.gif" alt="순천향대학교 부속 천안병원"></a></div>
+        <div><a href="http://www.dkuh.co.kr/" target="_blank"><img src="img/partner3_logo.png" alt="단국대학교 병원"></a></div>
     </div>
     <div class="footer__wrap">
         <div class="footer__text">
@@ -18,9 +18,9 @@
             : 041) 577-8888 | 팩스 : 041) 570-3003</span></div>
 
             <div class="sns footer__sns">
-                <a class="sns__blog" href="#">블로그</a>
-                <a class="sns__facebook" href="#">페이스북</a>
-                <a class="sns__instagram" href="#">인스타그램</a>
+                <a class="sns__blog" target="_blank" href="http://blog.naver.com/PostList.nhn?blogId=miznaraelove">블로그</a>
+                <a class="sns__facebook" target="_blank" href="https://en-gb.facebook.com/miznarae09/">페이스북</a>
+                <a class="sns__instagram" target="_blank" href="https://www.instagram.com/miznarae/">인스타그램</a>
             </div>
 
             <div class="footer__copyright">COPYRIGHTⓒ 2019 MIZNARAE. ALL RIGHTS RESERVED.</div>
