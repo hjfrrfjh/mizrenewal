@@ -6,11 +6,13 @@
             <h2>041-577-8888</h2>
         </div>
 
+        <a href="index.php">
         <h1 class="header__text">
             <strong>아이</strong>와 <strong>어머니</strong>를 생각하는<i class="far fa-heart" style="vertical-align: top;"><i
                     class="far fa-heart" style="font-size:0.8rem;vertical-align:top;"></i></i><br>
             <span><strong>미즈나래</strong>여성병원</span>
         </h1>
+        </a>
         <label class="hamburger header__hamburger">
             <input class="hamburger__checkbox" type="checkbox">
             <div class="hamburger__top-line"></div>

@@ -141,7 +141,7 @@
 <div class="snb">
     <div class="snb__wrap">
         <ul class="snb__container">
-            <li class="snb__home"><a href="#"><i class="fas fa-home"></i></a></li>
+            <li class="snb__home"><a href="index.php"><i class="fas fa-home"></i></a></li>
             <li class="snb__depth1"><a href="#">
             <?php echo $current_menu_name; ?>
              <i class="fas fa-angle-down"></i></a>
@@ -161,7 +161,7 @@
                 </ul>
             </li>
             
-            <li class="snb__depth2"><a href="s2_2delivery.html"><strong>
+            <li class="snb__depth2"><a href="#"><strong>
             <?php 
                 echo $current_sub_menu_name;
             ?>

@@ -213,13 +213,10 @@
 		line-height: 30px;
 		margin: 0 auto;
 		margin-top: 20px;
-	}
-
-	.box__button a{
+		display:block;
 		color:#E96166;
 		font-weight: bold;
 	}
-
 
 	.row3{
 		margin-top:10px;
