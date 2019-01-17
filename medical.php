@@ -10,6 +10,7 @@
 
 <body>
     <? include 'header.php' ?>
+    <div class="submainimg"><img src="img/sub/medical.jpg" alt="진료안내"></div>
     <? include 'snb.php' ?>
     <div class="content">
         <h1 class="sub_title">산부인과</h1>
@@ -143,7 +144,7 @@
             </tr>
         </table>
     </div>
-    
+    <? include 'quickmenu.php' ?>
     <? include 'footer.php' ?>
 </body>
 
