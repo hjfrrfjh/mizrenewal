@@ -71,7 +71,7 @@ echo "
             if (window_width >=break_point) {
                 $quick_menu.css("right",((window_width-quick_max_width)/2)-(quick_menu_width+quick_menu_gap)+"px");
             }else{
-                $quick_menu.css("right",quick_menu_gap+px);
+                $quick_menu.css("right",quick_menu_gap+"px");
             }
         });
 

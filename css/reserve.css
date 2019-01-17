@@ -1,3 +1,11 @@
+.core{
+	width:100%; 
+	display:block; 
+	height:200px; 
+	background:url('../img/sub/core.jpg')no-repeat; 
+	background-size:cover; 
+	background-position: 0 -80px;
+}
 #wrap{
 	width:960px;
 	margin:0 auto;

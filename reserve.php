@@ -13,9 +13,7 @@
 
 	<body>
 	<?php include 'header.php';?>
-    <div style="background-color:white;">
-        <img src="img/상담예약_resize.jpg" alt="상담예약" style="width:100%; height:200px; display:block;">
-    </div>
+    <div class="core"></div>
     <?php include 'snb.php';?>
 
 		<div id="wrap">
