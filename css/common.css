@@ -27,13 +27,41 @@
     font-style: normal;
   }
 
+/* nanum-gothic-regular - korean */
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/nanum-gothic-v13-korean-regular.eot'); /* IE9 Compat Modes */
+    src: local('NanumGothic'),
+         url('../font/nanum-gothic-v13-korean-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../font/nanum-gothic-v13-korean-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../font/nanum-gothic-v13-korean-regular.woff') format('woff'), /* Modern Browsers */
+         url('../font/nanum-gothic-v13-korean-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../font/nanum-gothic-v13-korean-regular.svg#NanumGothic') format('svg'); /* Legacy iOS */
+  }
+
+/* nanum-myeongjo-regular - korean */
+@font-face {
+    font-family: 'Nanum Myeongjo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/nanum-myeongjo-v12-korean-regular.eot'); /* IE9 Compat Modes */
+    src: local('NanumMyeongjo'),
+         url('../font/nanum-myeongjo-v12-korean-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../font/nanum-myeongjo-v12-korean-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../font/nanum-myeongjo-v12-korean-regular.woff') format('woff'), /* Modern Browsers */
+         url('../font/nanum-myeongjo-v12-korean-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../font/nanum-myeongjo-v12-korean-regular.svg#NanumMyeongjo') format('svg'); /* Legacy iOS */
+  }
+
 .icon-font{
     font-family: "miz_icon";
     font-style: normal;
 }
 
 body{
-    font-family: 'Noto Sans','Nanum Gothic', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
     font-size:16px;
     color:rgb(60, 60, 60);
 }
@@ -103,7 +131,7 @@ body{
     position:absolute;
     width:100%;
     height:10%;
-    background-color:var(--base-color);
+    background-color:#e96166;
     transform:translate(0,-50%) rotate(0);
     transition:all 0.3s;
     border-radius:10px;
@@ -136,7 +164,7 @@ body{
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
-    color:var(--base-color-light); 
+    color:#f7898d; 
     font-size:1.0rem;
     text-align:center;
     font-family: 'Nanum Myeongjo', serif;
@@ -145,7 +173,7 @@ body{
 }
 
 .header__text span{
-    color:var(--base-color);
+    color:#e96166;
 }
 
 .header__text strong{
@@ -165,7 +193,7 @@ body{
 
 .logo{
     margin-left:20px;
-    width:120px;
+    width:130px;
     padding:10px 10px;
 }
 
@@ -238,8 +266,8 @@ body{
 .gnb {
     text-align:center;
     font-size:0;
-    border-top:1px solid var(--color3);
-    border-bottom:1px solid var(--color3);
+    border-top:1px solid #e1e1e1;
+    border-bottom:1px solid #e1e1e1;
     letter-spacing: -0.1rem;
     word-spacing:0.1rem;
 }
@@ -276,7 +304,7 @@ body{
 }
 
 .gnb__item--active span{
-    border-bottom:3px solid var(--base-color);
+    border-bottom:3px solid #e96166;
 }
 
 /* 2depth 메뉴 시작 */
@@ -306,7 +334,7 @@ body{
     vertical-align:middle;
     letter-spacing: -0.1em;
     word-spacing: 0.2rem;
-    color:var(--base-color);
+    color:#e96166;
     background-color:rgb(255, 242, 245);
 }
 
@@ -324,11 +352,11 @@ body{
     /* font-size:0.9rem; */
     letter-spacing: -0.1rem;
     word-spacing:0.1rem;
-    color:var(--color-grey);
+    color:rgb(104, 104, 104);
 }
 
 .sub__list a:hover{
-    color:var(--base-color);
+    color:#e96166;
 }
 
 /* 모바일 네비게이션 시작 */
@@ -337,7 +365,7 @@ body{
     width:100%;
     height: calc(100% - 64px);
     background-color:white;
-    color:var(--color-grey);
+    color:rgb(104, 104, 104);
     overflow-y: auto;
     z-index:100;
     display:none;
@@ -347,7 +375,7 @@ body{
 .mobile-nav__1depth-item{
     clear:both;
     box-sizing:border-box;
-    border:1px solid var(--color5);
+    border:1px solid #f3f3f3;
     font-size:1.2rem;
     word-spacing:0.08rem;
 }
@@ -358,7 +386,7 @@ body{
     padding:10px 5%;
     overflow:hidden;
     font-size:0;
-    border-left:4px solid var(--base-color);
+    border-left:4px solid #e96166;
     white-space:nowrap;
 }
 
@@ -374,7 +402,7 @@ body{
     display:inline-block;
     width:0px;height:0px;
     box-sizing:border-box;
-    border-top: 10px solid var(--base-color);
+    border-top: 10px solid #e96166;
     border-left: 7px solid transparent;
     border-right : 7px solid transparent;
     border-bottom:none;
@@ -384,7 +412,7 @@ body{
     border-top: none;
     border-left: 7px solid transparent;
     border-right : 7px solid transparent;
-    border-bottom:10px solid var(--base-color);
+    border-bottom:10px solid #e96166;
 }
 
 
@@ -398,7 +426,7 @@ body{
 .mobile-nav__2depth >li{
     
     box-sizing:border-box;
-    border:1px solid var(--color5);
+    border:1px solid #f3f3f3;
 }
 
 .mobile-nav__2depth >li > a{
@@ -419,7 +447,7 @@ body{
 }
 
 .mobile-nav__contact-title{
-    color:var(--base-color);
+    color:#e96166;
     text-align:center;
 }
 
@@ -449,7 +477,7 @@ body{
 .mobile-nav__time-title{
     font-size:1.2rem;
     letter-spacing:-0.1rem;
-    color:var(--base-color);
+    color:#e96166;
     text-align:center;
 }
 
@@ -540,11 +568,11 @@ body{
 
 
 .snb__dropdown > li > a:hover{
-    background-color:var(--base-color-light);
+    background-color:#f7898d;
     color:white;
 }
 .snb__dropdown .snb__selected{
-    background-color:var(--base-color);
+    background-color:#e96166;
     color:white;
 }
 .snb__dropdown .snb__selected:after{
@@ -556,7 +584,7 @@ body{
 
 /* 푸터 시작 */
 .footer{
-    background-color:var(--base-color);
+    background-color:#e96166;
     border-top:1px solid #ddd;
     text-align:center;
     color:white;
@@ -564,9 +592,9 @@ body{
 
 .footer__parters{
     padding:20px 0;
-    border-bottom:1px solid var(--color3);
+    border-bottom:1px solid #e1e1e1;
     line-height:2rem;
-    background-color:var(--color5);
+    background-color:#f3f3f3;
     color:rgb(60, 60, 60);
 }
 
@@ -647,7 +675,7 @@ address{
     top:50%;
     transform:translate(0,-50%);
     right:50px;
-    background-color:var(--base-color-light);
+    background-color:#f7898d;
     z-index:100;
     color:white;
     box-shadow:1px 1px 1px rgba(0,0,0,0.1);
@@ -664,7 +692,7 @@ address{
     box-sizing:border-box;
 }
 .icon-box:hover{
-    background-color:var(--base-color);
+    background-color:#e96166;
 }
 
 .icon-box__container{
@@ -766,7 +794,7 @@ address{
     }
 
     .header__logo-area{
-        border-bottom:1px solid var(--color4);
+        border-bottom:1px solid #F7F7F7;
         text-align:center;
     }
 

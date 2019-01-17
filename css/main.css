@@ -121,7 +121,7 @@
 		width:65%;
 		height: 25px;
 		outline:none;
-		border:1px solid var(--base-color-light);
+		border:1px solid #f7898d;
 		box-sizing:border-box;
 		padding:0 10px;
 	}

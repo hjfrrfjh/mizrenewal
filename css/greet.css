@@ -1,5 +1,5 @@
 /*서브 메인이미지*/
-.mizintroimg{width:100%; display: block; height: 200px; background: url('../img/sub/intro.jpg')no-repeat; background-size: cover; background-position: 0 -80px;}
+.mizintroimg{width:100%; display: block; height: 200px; background: url('../img/sub/intro.jpg')no-repeat; background-size: cover;	background-position:center center;}
 
 *{
    margin: 0;
