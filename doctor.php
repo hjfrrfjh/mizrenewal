@@ -34,7 +34,7 @@ $(function(){
 
  <? include 'header.php' ?>
 
-   
+   <div class="mizintroimg"></div>
         <?php include 'snb.php' ?>
    
 	<div class="content"> <!-- @@@@@@본문@@@@@@@ -->

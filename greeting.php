@@ -11,7 +11,7 @@
 <body>
     <? include 'header.php' ?>
 
-    
+    <div class="mizintroimg"></div>
 
         <?php include 'snb.php' ?>
         
