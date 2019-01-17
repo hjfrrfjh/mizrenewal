@@ -25,215 +25,217 @@
 </head>
 
 <body>
-    <!-- 헤더 -->
-    <?php include 'header.php';?>
-    <?php include 'slide.php';?>
+	<!-- 헤더 -->
+	<?php include 'header.php';?>
+	<?php include 'slide.php';?>
 
-
-<div class="content">
-				<section>
-				<div id="top">
-					<div class="top_menu1">
-						<div class="top_menu1_left">
-							<li>
-								<a href="#">배동한 원장 진료</a>
-							</li>
-							<li>
-								<a href="#">동계진료시간 단축안내</a>
-							</li>
-							<li>
-								<a href="#">난임 건강보험 적용</a>
-							</li>
-							<li>
-								<a href="#">시험관 아기 탄생</a>
-							</li>
-						</div>
-						<div class="img">
-							<img src="img/Untitled-1.png" />
-						</div>
+	<div class="content">
+		<div class="row1">
+			<section class="top-content">
+				<div class="top-content__menu">
+					<li>
+						<a href="#">배동한 원장 진료</a>
+					</li>
+					<li>
+						<a href="#">동계진료시간 단축안내</a>
+					</li>
+					<li>
+						<a href="#">난임 건강보험 적용</a>
+					</li>
+					<li>
+						<a href="#">시험관 아기 탄생</a>
+					</li>
+				</div>
+				<div class="top-content__body">
+					<img src="img/Untitled-1.png" />
+				</div>
+			</section>
+			<section class="reserve clearfix">
+				<h2 class="reserve__title"><i class="far fa-calendar-check"></i>간편 예약</h2>
+				<div class="clearfix">
+				<div class="reserve__left">
+					<div class="reserve__input-container clearfix">
+						<label>원장님</label>
+						<input class="reserve__doctor" type="text" name="doctor">
 					</div>
-					<div class="top_menu2">
-						<h2><i class="far fa-calendar-check"></i>간편 예약</h2>
-						<div class="form">
-
-							<label for="name">원장님</label>
-							<input type="text" name="name" id="name">
-						</div>
-						<div class="form_right">
-							<label for="message"> </label>
-							<textarea name="message" id="message"> </textarea>							
-         
-
-						</div>
-						<div class="form">
-							<label for="email">이름</label>
-							<input type="text">
-						</div>
-						<div class="form">
-							<label for="email">휴대전화</label>
-							<input type="text">
-						</div>
-
-						<a href="#">
-						<div class="top_button">
-							<p>
-								예약신청
-							</p>
-						</div> </a>
-
+					<div class="reserve__input-container clearfix">
+						<label>이름</label>
+						<input class="reserve__name" type="text" name="name">
+					</div>
+					<div class="reserve__input-container clearfix">
+						<label>휴대전화</label>
+						<input class="reserve__phone" type="text" name="phone">
 					</div>
 				</div>
-				<div id="center">
-					<div class="box">
-						<img src="img/icon1.PNG" /><h4>공지사항 <i class="fas fa-plus-circle"></i></h4>
 
-						<p>
-							공지사항입니다 공지사항입니다
-						</p>
-						<p>
-							공지사항입니다 공지사항입니다
-						</p>
-						<p>
-							공지사항입니다 공지사항입니다
-						</p>
-						<p>
-							공지사항입니다 공지사항입니다
-						</p>
-						<p>
-							공지사항입니다 공지사항입니다
-						</p>
-						<p>
-							공지사항입니다 공지사항입니다
-						</p>
-						<p>
-							공지사항입니다 공지사항입니다
-						</p>
-					</div>
-
-					<div class="box">
-						<img src="img/icon2.PNG" /><h4>진료안내</h4>
-						<br />
-						<br />
-						<p>
-							평일
-						</p><span> 오전9:00~오후6:00</span>
-						<br />
-						<p>
-							평일야간
-						</p><span> 오후6:00~오후7:00</span>
-						<br />
-						<p>
-							토요일
-						</p><span> 오전9:00~오후1:00</span>
-						<br />
-						<p>
-							토요일야간
-						</p><span> 오전9:00~오후1:00</span>
-						<br />
-						<p>
-							일요일
-						</p><span> 휴진</span>
-						<br />
-						<p >
-							공휴일
-						</p><span> 오전9:00~오후1:00</span>
-						<br />
-						<div class="button">
-							<a href="#">예약 신청</a>
-						</div>
-					</div>
-					<div class="box">
-						<img src="img/icon3.PNG" /><h4>증명서발급</h4>
-						<br />
-						<br />
-						<p>
-							1.원무과에서 발급신청 구비서류 제출
-						</p>
-						<br />
-						<br />
-						<br />
-						<p>
-							2.주치의 상담
-						</p>
-						<br />
-						<br />
-						<br />
-						<p>
-							3.원무과에서 수납 증명서발행
-						</p>
-						<div class="button_">
-							<a href="#">자세히 보기</a>
-						</div>
-					</div>
-					<div class="box">
-						<img src="img/icon4.PNG" /><h4>이용후기 <i class="fas fa-plus-circle"></i></h4>
-
-						<p>
-							공지사항입니다 공지사항입니다
-						</p>
-						<p>
-							공지사항입니다 공지사항입니다
-						</p>
-						<p>
-							공지사항입니다 공지사항입니다
-						</p>
-						<p>
-							공지사항입니다 공지사항입니다
-						</p>
-						<p>
-							공지사항입니다 공지사항입니다
-						</p>
-						<p>
-							공지사항입니다 공지사항입니다
-						</p>
-						<p>
-							공지사항입니다 공지사항입니다
-						</p>
-					</div>
+				<div class="reserve__right">
+					<textarea class="reserve__detail" name="detail" placeholder="증상을 말씀해주세요"></textarea>
 				</div>
-				<div id="bottom">
-					<div class="bottom_menu1">
-						<div class="text">
-							<h2>감성분만</h2>
-							<br /><br />
-							<p>
-								산모와 아이가 주인공이 되어 서로 감성을 느끼면서
-								<br />
-								출산을 하는 것을 말합니다.
-							</p>
-							<div class="button2">
-								<a href="#">자세히 ></a>
-							</div>
-						</div>
-					</div>
-					<div class="bottom_menu2">
-						<div class="text">
-							<h2>난임센터</h2>
-							<br /><br />
-							<p>
-								어여쁜 아이의 엄마가 될수 있습니다.
-								<br />
-								행복함을 느껴보세요.
-							</p>
-							<div class="button2">
-								<a href="#">자세히 ></a>
-							</div>
-						</div>
-					</div>
 				</div>
-				<br /><br /><br /><br />
-				<div id="map">
-					<div id="head">
 
-						<h1>오시는길<!-- <i class="fas fa-map-marker-alt"></i> --></h1>
-						<br>
-						<p>미즈나래여성병원 으로 오시는 길을 알려드립니다.</p>
-					</div>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3195.0682629280755!2d127.1240102148119!3d36.792913675810425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ad7f8a2020857%3A0x255e3fa5a82649a!2z66-47KaI64KY656Y7Jes7ISx67OR7JuQ!5e0!3m2!1sko!2skr!4v1546841666608" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-				</div>
-				<br /><br /><br /><br />
+				<a href="#" class="reserve__button">
+					예약신청
+				</a>
 			</section>
 		</div>
+		<div class="row2">
+			<section class="box box--nomargin">
+				<img src="img/icon1.PNG" />
+				<h4>공지사항 <i class="fas fa-plus-circle"></i></h4>
+
+				<p>
+					공지사항입니다 공지사항입니다
+				</p>
+				<p>
+					공지사항입니다 공지사항입니다
+				</p>
+				<p>
+					공지사항입니다 공지사항입니다
+				</p>
+				<p>
+					공지사항입니다 공지사항입니다
+				</p>
+				<p>
+					공지사항입니다 공지사항입니다
+				</p>
+				<p>
+					공지사항입니다 공지사항입니다
+				</p>
+				<p>
+					공지사항입니다 공지사항입니다
+				</p>
+			</section>
+
+			<div class="box">
+				<img src="img/icon2.PNG" />
+				<h4>진료안내</h4>
+				<br />
+				<br />
+				<p>
+					평일
+				</p><span> 오전9:00~오후6:00</span>
+				<br />
+				<p>
+					평일야간
+				</p><span> 오후6:00~오후7:00</span>
+				<br />
+				<p>
+					토요일
+				</p><span> 오전9:00~오후1:00</span>
+				<br />
+				<p>
+					토요일야간
+				</p><span> 오전9:00~오후1:00</span>
+				<br />
+				<p>
+					일요일
+				</p><span> 휴진</span>
+				<br />
+				<p>
+					공휴일
+				</p><span> 오전9:00~오후1:00</span>
+				<br />
+				<div class="box__button">
+					<a href="#">예약 신청</a>
+				</div>
+			</div>
+			<div class="box">
+				<img src="img/icon3.PNG" />
+				<h4>증명서발급</h4>
+				<br />
+				<br />
+				<p>
+					1.원무과에서 발급신청 구비서류 제출
+				</p>
+				<br />
+				<br />
+				<br />
+				<p>
+					2.주치의 상담
+				</p>
+				<br />
+				<br />
+				<br />
+				<p>
+					3.원무과에서 수납 증명서발행
+				</p>
+				<div class="box__button">
+					<a href="#">자세히 보기</a>
+				</div>
+			</div>
+			<div class="box">
+				<img src="img/icon4.PNG" />
+				<h4>이용후기 <i class="fas fa-plus-circle"></i></h4>
+
+				<p>
+					공지사항입니다 공지사항입니다
+				</p>
+				<p>
+					공지사항입니다 공지사항입니다
+				</p>
+				<p>
+					공지사항입니다 공지사항입니다
+				</p>
+				<p>
+					공지사항입니다 공지사항입니다
+				</p>
+				<p>
+					공지사항입니다 공지사항입니다
+				</p>
+				<p>
+					공지사항입니다 공지사항입니다
+				</p>
+				<p>
+					공지사항입니다 공지사항입니다
+				</p>
+			</div>
+		</div>
+		<div class="row3 clearfix">
+			<section class="bottom_menu1">
+				<div class="bottom_menu__text">
+					<h2>감성분만</h2>
+					<br /><br />
+					<p>
+						산모와 아이가 주인공이 되어 서로 감성을 느끼면서
+						<br />
+						출산을 하는 것을 말합니다.
+					</p>
+					<div class="bottom_menu__button">
+						<a href="#">자세히 ></a>
+					</div>
+				</div>
+			</section>
+
+			<section class="bottom_menu2">
+				<div class="bottom_menu__text">
+					<h2>난임센터</h2>
+					<br /><br />
+					<p>
+						어여쁜 아이의 엄마가 될수 있습니다.
+						<br />
+						행복함을 느껴보세요.
+					</p>
+					<div class="bottom_menu__button">
+						<a href="#">자세히 ></a>
+					</div>
+				</div>
+			</section>
+		</div>
+
+
+			<div class="map">
+				<div class="map__title">
+
+					<h1>오시는길
+						<!-- <i class="fas fa-map-marker-alt"></i> -->
+					</h1>
+					<br>
+					<p>미즈나래여성병원 으로 오시는 길을 알려드립니다.</p>
+				</div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3195.0682629280755!2d127.1240102148119!3d36.792913675810425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ad7f8a2020857%3A0x255e3fa5a82649a!2z66-47KaI64KY656Y7Jes7ISx67OR7JuQ!5e0!3m2!1sko!2skr!4v1546841666608"
+				 width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+	</div>
 
 </body>
 

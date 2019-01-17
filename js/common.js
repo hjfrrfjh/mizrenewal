@@ -92,7 +92,7 @@ $(function () {
     }
 
     function uiChange() {
-        if ($window.width() >= 764) {
+        if ($window.width() >= 768) {
             $header.css("padding-top", 0);
             $logoArea.removeClass("header__logo-area--sticky");
             stickyNav();

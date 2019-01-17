@@ -10,18 +10,19 @@
 		<div id="header"></div>
 		<? include 'snb.php' ?>
 		<div id="info">
-		<h2>증명서 발급</h2>
-		<p>의료법 제 21조 제 3항 및 시행규칙 제 13조 제 3항에 의거 의무기록(검사 결과지, 초진 기록지, 입·퇴원 기록지, 수술 기록지 등)은 환자의 동의 없이 의무기록 열람 및 사본을 발급 받을 수 없습니다.</p>
+			<h1 class="sub_title">증명서 발급</h1>
+			<p>의료법 제 21조 제 3항 및 시행규칙 제 13조 제 3항에 의거 의무기록(검사 결과지, 초진 기록지, 입·퇴원 기록지, 수술 기록지 등)은 환자의 동의 없이 의무기록 열람 및 사본을 발급 받을 수 없습니다.</p>
+				<div id="bar" class="bar"></div>
 		</div>
 <hr>
 		<div id="rull">
-			<h2>신청 및 발급 절차</h2>
+			<h3 class="sub_title_s"><div class="sub_title_line"></div>신청 및 발급 절차</h3>
 			<p>원무과에서 발급신청/구비서류 제출->주치의 상담->원무과에서 수납, 증명서 발행
 			<br>입원(퇴원) 중 발급을 원하시는 경우 병동 간호사실에 신청하시면 됩니다. 진단서, 소견서, 의무기록 사본 등(진단명, 수술명 포함서류)의 서류는 주치의가 직접 작성하여야 하므로 주치의 일정에 따라 내원하여 주시기 바랍니다.</p>
 		</div>
 <hr>
 		<div id="top-box">
-			<h2>구비 서류</h2>
+			<h3 class="sub_title_s"><div class="sub_title_line"></div>구비 서류</h3>
 				<div class="tabs">
     				<input type="radio" name="tabs" id="tab2" checked="checked">    
     				<label for="tab2">환자 본인, 배우자 및 직계 가족이 신청하는 경우</label>
@@ -54,6 +55,7 @@
      			</div>
   			</div>				
 		</div>
+		<? include 'quickmenu.php' ?>
 		<?php include 'footer.php'; ?>
 	</body>
 </html>

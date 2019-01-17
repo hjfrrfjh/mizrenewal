@@ -10,8 +10,13 @@
 		<div id="header"></div>
 		<? include 'snb.php' ?>
 		<div id="info">
-		<h2>비급여 항목 안내</h2>
-		<p>의료법 제 1항 및 제 2항, 시행규칙 제42조의 제 2항에 의거하여 건강보험 및 의료급여 대상자의 비급여 진료비용을 고지합니다. 건강보험이 적용되지 않는 비급여 항목과 요양급여의 제외되는 진료비를 확인해보세요.</p>
+			<h1 class="sub_title">비급여 항목 안내</h1>
+			<p>의료법 제 1항 및 제 2항, 시행규칙 제42조의 제 2항에 의거하여 건강보험 및 의료급여 대상자의 비급여 진료비용을 고지합니다. 건강보험이 적용되지 않는 비급여 항목과 요양급여의 제외되는 진료비를 확인해보세요.</p>
+				<div id="bar" class="bar"></div>
+		</div>
+<hr>
+		<div id="rull">
+			<h3 class="sub_title_s"><div class="sub_title_line"></div>행위료/그 외(치료재료대/약제비/제증명 수수료)</h3>
 		</div>
 <hr>
 		<div id="top-box">
@@ -1239,6 +1244,7 @@
      			</div>
   			</div>				
 		</div>
+		<? include 'quickmenu.php' ?>
 		<?php include 'footer.php'; ?>
 	</body>
 </html>
