@@ -91,7 +91,7 @@
                             <li><a href="greeting.php">인사말</a></li>
                             <li><a href="facilities.php">병원 둘러보기</a></li>
                             <li><a href="doctor.php">의료진 안내</a></li>
-                            <li><a href="mpa.php">찾아오시는 길</a></li>
+                            <li><a href="map.php">찾아오시는 길</a></li>
                         </ul>
                     </li>
                 </ul>
