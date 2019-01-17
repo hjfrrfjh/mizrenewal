@@ -99,7 +99,7 @@
    }
 
    .top-banner .slick-dots .slick-active button:after{
-       background-color:var(--base-color); /* 현재 페이지 점의 디자인 */
+       background-color:#e96166; /* 현재 페이지 점의 디자인 */
    }
 
    @media all and (max-width:763px){
