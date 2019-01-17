@@ -4,7 +4,7 @@
 	height:200px; 
 	background:url('../img/sub/core.jpg')no-repeat; 
 	background-size:cover; 
-	background-position: 0 -80px;
+	background-position: center center;
 }
 #wrap{
 	width:960px;

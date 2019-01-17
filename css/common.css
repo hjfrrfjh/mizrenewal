@@ -672,7 +672,7 @@ address{
 
 .quick-menu{
     position:absolute;
-    top:50%;
+    top:580px;
     transform:translate(0,-50%);
     right:50px;
     background-color:#f7898d;
