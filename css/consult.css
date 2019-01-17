@@ -80,6 +80,7 @@ p{
 	color:#838383;
 	border:none;
 	margin:0 5px;
+	cursor:pointer;
 }
 .bb{
 	width:110px;
@@ -91,6 +92,7 @@ p{
 	color:#838383;
 	border:none;
 	margin:0 5px;
+	cursor:pointer;
 }
 
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ미디어쿼리ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
