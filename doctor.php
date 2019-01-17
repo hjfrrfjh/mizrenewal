@@ -204,7 +204,7 @@ $(function(){
     	</div>
     </div>
     </div>
-    
+    <? include 'quickmenu.php' ?>
   <? include 'footer.php' ?>
 
 </body>

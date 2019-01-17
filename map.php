@@ -64,7 +64,7 @@
 			</div>
 		</section>
     </div>
-    
+    <? include 'quickmenu.php' ?>
      <? include 'footer.php' ?>
     
 </body>
