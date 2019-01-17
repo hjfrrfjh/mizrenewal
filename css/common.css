@@ -27,13 +27,41 @@
     font-style: normal;
   }
 
+/* nanum-gothic-regular - korean */
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/nanum-gothic-v13-korean-regular.eot'); /* IE9 Compat Modes */
+    src: local('NanumGothic'),
+         url('../font/nanum-gothic-v13-korean-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../font/nanum-gothic-v13-korean-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../font/nanum-gothic-v13-korean-regular.woff') format('woff'), /* Modern Browsers */
+         url('../font/nanum-gothic-v13-korean-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../font/nanum-gothic-v13-korean-regular.svg#NanumGothic') format('svg'); /* Legacy iOS */
+  }
+
+/* nanum-myeongjo-regular - korean */
+@font-face {
+    font-family: 'Nanum Myeongjo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/nanum-myeongjo-v12-korean-regular.eot'); /* IE9 Compat Modes */
+    src: local('NanumMyeongjo'),
+         url('../font/nanum-myeongjo-v12-korean-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../font/nanum-myeongjo-v12-korean-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../font/nanum-myeongjo-v12-korean-regular.woff') format('woff'), /* Modern Browsers */
+         url('../font/nanum-myeongjo-v12-korean-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../font/nanum-myeongjo-v12-korean-regular.svg#NanumMyeongjo') format('svg'); /* Legacy iOS */
+  }
+
 .icon-font{
     font-family: "miz_icon";
     font-style: normal;
 }
 
 body{
-    font-family: 'Noto Sans','Nanum Gothic', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
     font-size:16px;
     color:rgb(60, 60, 60);
 }
@@ -165,7 +193,7 @@ body{
 
 .logo{
     margin-left:20px;
-    width:120px;
+    width:130px;
     padding:10px 10px;
 }
 
