@@ -23,9 +23,9 @@
 </head>
 
 <body>
-    <? include 'header.php' ?>
+    <?php include 'header.php' ?>
     <div class="infertilityimg"></div>
-    <? include 'snb.php' ?>
+    <?php include 'snb.php' ?>
     <div class="content">
         <h1 class="sub_title">난임이란</h1>
         <div class="infertility_tabs">
@@ -254,8 +254,8 @@
             </ul>
         </div>
     </div>
-    <? include 'quickmenu.php' ?>
-    <? include 'footer.php' ?>
+    <?php include 'quickmenu.php' ?>
+    <?php include 'footer.php' ?>
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 <div class="sub-top">
     
 </div>
-<? include 'snb.php' ?>
+<?php include 'snb.php' ?>
 
 <h1 class="sub_title">
     <?php echo $title ?>

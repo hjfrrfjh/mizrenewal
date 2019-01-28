@@ -9,9 +9,9 @@
 </head>
 
 <body>
-    <? include 'header.php' ?>
+    <?php include 'header.php' ?>
     <div class="medicalimg"></div>
-    <? include 'snb.php' ?>
+    <?php include 'snb.php' ?>
     
     <div class="content">
         <h1 class="sub_title">감성분만</h1>
@@ -39,8 +39,8 @@
             </p>
         </div>
     </div>
-    <? include 'quickmenu.php' ?>
-    <? include 'footer.php' ?>
+    <?php include 'quickmenu.php' ?>
+    <?php include 'footer.php' ?>
 </body>
 
 </html>

@@ -7,16 +7,16 @@
 </head>
 
 <body>
-    <? include 'header.php' ?>
-    <? $title="병원이용후기"; include 'sub_service.php'; ?>
+    <?php include 'header.php' ?>
+    <?php $title="병원이용후기"; include 'sub_service.php'; ?>
     
     
 <div class="temp">
         게시판
 </div>
 
-    <? include 'quickmenu.php' ?>
-    <? include 'footer.php' ?>
+    <?php include 'quickmenu.php' ?>
+    <?php include 'footer.php' ?>
 </body>
 
 

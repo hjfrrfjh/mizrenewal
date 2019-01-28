@@ -9,9 +9,9 @@
 </head>
 
 <body>
-    <? include 'header.php' ?>
+    <?php include 'header.php' ?>
     <div class="medicalimg"></div>
-    <? include 'snb.php' ?>
+    <?php include 'snb.php' ?>
     <div class="content">
         <h1 class="sub_title">산부인과</h1>
         <div class="sub_call">
@@ -144,8 +144,8 @@
             </tr>
         </table>
     </div>
-    <? include 'quickmenu.php' ?>
-    <? include 'footer.php' ?>
+    <?php include 'quickmenu.php' ?>
+    <?php include 'footer.php' ?>
 </body>
 
 </html>

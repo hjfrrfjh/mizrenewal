@@ -10,7 +10,7 @@
 
 <body>
 	
-    <? include 'header.php' ?>
+    <?php include 'header.php' ?>
     
    <div class="mizintroimg"></div>
         <?php include 'snb.php' ?>
@@ -64,8 +64,8 @@
 			</div>
 		</section>
     </div>
-    <? include 'quickmenu.php' ?>
-     <? include 'footer.php' ?>
+    <?php include 'quickmenu.php' ?>
+     <?php include 'footer.php' ?>
     
 </body>
 

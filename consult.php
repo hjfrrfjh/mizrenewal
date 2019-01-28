@@ -63,7 +63,7 @@
 				</div>
 			</div>
 		</div>
-    <? include 'quickmenu.php' ?>
+    <?php include 'quickmenu.php' ?>
 	<!-- 푸터 -->
 	<?php include 'footer.php';?>
     </body>

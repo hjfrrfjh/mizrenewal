@@ -8,9 +8,9 @@
 
 
 <body>
-    <? include 'header.php' ?>
+    <?php include 'header.php' ?>
       <div class="mizintroimg"></div>
-    <? include 'snb.php' ?>
+    <?php include 'snb.php' ?>
     <div id="total">
     <div id="text">
 	<h1>병원 둘러보기</h1>
@@ -66,8 +66,8 @@
 </figure>
 </div>
     
-    <? include 'quickmenu.php' ?>
-    <? include 'footer.php' ?>
+    <?php include 'quickmenu.php' ?>
+    <?php include 'footer.php' ?>
 </body>
 
 </html>

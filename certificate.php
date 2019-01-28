@@ -8,7 +8,7 @@
 	<body>
 		<?php include 'header.php';?>
 		<div id="header"></div>
-		<? include 'snb.php' ?>
+		<?php include 'snb.php' ?>
 		<div id="info">
 			<h1 class="sub_title">증명서 발급</h1>
 			<p>의료법 제 21조 제 3항 및 시행규칙 제 13조 제 3항에 의거 의무기록(검사 결과지, 초진 기록지, 입·퇴원 기록지, 수술 기록지 등)은 환자의 동의 없이 의무기록 열람 및 사본을 발급 받을 수 없습니다.</p>
@@ -55,7 +55,7 @@
      			</div>
   			</div>				
 		</div>
-		<? include 'quickmenu.php' ?>
+		<?php include 'quickmenu.php' ?>
 		<?php include 'footer.php'; ?>
 	</body>
 </html>
